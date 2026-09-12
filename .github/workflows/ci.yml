@@ -30,3 +30,6 @@ jobs:
       - name: Run tests
         run: |
           python -m pytest
+      - name: Run linting
+        run: |
+          ruff check .
