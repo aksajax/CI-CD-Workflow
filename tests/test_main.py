@@ -11,8 +11,9 @@ def test_home():
 
     assert response.status_code == 200
     assert response.json() == {
-    "message": "CI/CD Project is working!"
+    "message": "CI/CD Project is running!"
 }
+
 
 
 def test_health():
